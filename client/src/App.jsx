@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import Projects from "./components/Projects";
 import About from "./components/About";
 import Contact from "./components/Contact";
+import { color } from "framer-motion";
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
       <section id="contact" className="min-h-screen bg-white flex items-center justify-center">
       <Contact />
       </section>
-      <footer>© 2025 Manya • Built with React + Tailwind</footer>
+      <footer style={{ color: "black" }}>© 2025 Manya • Built with React + Tailwind</footer>
     </div>
   );
 }
