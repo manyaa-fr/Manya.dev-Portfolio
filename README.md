@@ -8,3 +8,5 @@ Animations:  Framer Motion
 Icons:       React Icons
 Deployment:  Vercel
 
+## Deployment Link:
+https://manya-dev-portfolio-4571.vercel.app/
