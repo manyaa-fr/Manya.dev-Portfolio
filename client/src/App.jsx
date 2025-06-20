@@ -18,6 +18,7 @@ function App() {
       <section id="contact" className="min-h-screen bg-white flex items-center justify-center">
       <Contact />
       </section>
+      <footer>© 2025 Manya • Built with React + Tailwind</footer>
     </div>
   );
 }
