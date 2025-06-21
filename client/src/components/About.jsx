@@ -49,8 +49,8 @@ const About = () => {
             whileInView={{ opacity: 1 }}
             transition={{ delay: 0.4 }}
           >
-            Whether it's building spooky platforms <span className="text-xl">👻</span>, car enthusiast hubs{" "}
-            <span className="text-xl">🚗</span>, or Netflix clones{" "}
+            Whether it's building spooky platforms <span className="text-xl">👻</span>, Real Estate Trading platform{" "}
+            <span className="text-xl">🏠</span>, or Netflix clones{" "}
             <span className="text-xl">🎬</span> — I love crafting smooth, scrollable, animated digital stories.
           </motion.p>
 
@@ -71,7 +71,7 @@ const About = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.6 }}
           >
-            <span className="text-[#bd8c7d]">ChaoSpeed</span> + battling OneDrive{" "}
+            <span className="text-[#bd8c7d]">REITrade</span> + battling OneDrive{" "}
             <motion.span
               animate={{ rotate: [0, 15, -15, 0] }}
               transition={{ duration: 2, repeat: Infinity }}
