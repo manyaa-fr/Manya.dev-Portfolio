@@ -3,18 +3,30 @@ import { motion } from "framer-motion";
 const projects = [
   {
     title: "Netflix Clone",
-    description: "A HTML + CSS + JS powered Netflix-inspired platform with responsive UI.",
-    tech: ["HTML", "CSS", "Javascript"],
+    description: "A HTML + CSS powered Netflix-inspired platform with responsive UI.",
+    status: "Built 🔥",
+    tech: ["HTML", "CSS"],
+    badge: "Live",
+    github: "https://github.com/manyaa-fr/Netflix-clone.git",
+    live: "https://netflix-clone-chi-ebon.vercel.app/",
   },
   {
     title: "SpookySeekers",
     description: "Ghost stories platform with Express + MongoDB. Post, like, comment, and get haunted 👻",
+    status: "Built 🔥",
     tech: ["React", "Node.js", "MongoDB"],
+    badge: "Live",
+    github: "https://github.com/kalviumcommunity/S84_SpookySeekers.git",
+    live: null,
   },
   {
-    title: "ChaoSpeed",
-    description: "A pastel-charged car enthusiast hub with tuning calculator & events finder. Built to roar.",
-    tech: ["React", "Tailwind", "Google Maps API"],
+    title: "REITrade",
+    description: "REITrade is an upcoming platform where real estate meets real-time trading. A dashboard-first experience designed to simplify and democratize property investing — just like trading stocks.",
+    status: "Under Construction",
+    tech: ["React", "Node.js", "MongoDB", "Tailwind", "WebSockets"],
+    badge: "Coming Soon",
+    github: null,
+    live: null,
   },
 ];
 
