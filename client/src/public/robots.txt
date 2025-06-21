@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://manya-dev-portfolio-4571.vercel.app/sitemap.xml
