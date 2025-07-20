@@ -14,7 +14,7 @@ const projects = [
     title: "SpookySeekers",
     description: "Ghost stories platform with Express + MongoDB. Post, like, comment, and get haunted 👻",
     status: "Built 🔥",
-    tech: ["React", "Node.js", "MongoDB"],
+    tech: ["React", "Node.js", "MongoDB", "Express"],
     badge: "Live",
     github: "https://github.com/kalviumcommunity/S84_SpookySeekers.git",
     live: null,
@@ -27,8 +27,7 @@ const projects = [
     badge: "Live",
     github: "https://github.com/manyaa-fr/Netflix-clone.git",
     live: "https://netflix-clone-chi-ebon.vercel.app/",
-  }
-];
+  }];
 
 const cardVariant = {
   hidden: { opacity: 0, y: 40 },
