@@ -2,13 +2,13 @@ import { motion } from "framer-motion";
 
 const projects = [
   {
-    title: "Netflix Clone",
-    description: "A HTML + CSS powered Netflix-inspired platform with responsive UI.",
-    status: "Built 🔥",
-    tech: ["HTML", "CSS"],
-    badge: "Live",
-    github: "https://github.com/manyaa-fr/Netflix-clone.git",
-    live: "https://netflix-clone-chi-ebon.vercel.app/",
+    title: "Zynk",
+    description: "Sync with the city. A platform to connect with local events and activities.",
+    status: "Under Construction 🔥",
+    tech: ["React", "Standard CSS", "Node.js", "MongoDB", "Express", "Axios", "Nodemailer"],
+    badge: "Coming Soon",
+    github: "https://github.com/manyaa-fr/Zynk.git",
+    live: null,
   },
   {
     title: "SpookySeekers",
@@ -20,14 +20,14 @@ const projects = [
     live: null,
   },
   {
-    title: "REITrade",
-    description: "REITrade is an upcoming platform where real estate meets real-time trading. A dashboard-first experience designed to simplify and democratize property investing — just like trading stocks.",
-    status: "Under Construction",
-    tech: ["React", "Node.js", "MongoDB", "Tailwind", "WebSockets"],
-    badge: "Coming Soon",
-    github: null,
-    live: null,
-  },
+    title: "Netflix Home Page Clone",
+    description: "A HTML + CSS powered Netflix-inspired platform with responsive UI.",
+    status: "Built 🔥",
+    tech: ["HTML", "CSS"],
+    badge: "Live",
+    github: "https://github.com/manyaa-fr/Netflix-clone.git",
+    live: "https://netflix-clone-chi-ebon.vercel.app/",
+  }
 ];
 
 const cardVariant = {
