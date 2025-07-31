@@ -4,11 +4,11 @@ const projects = [
   {
     title: "Zynk",
     description: "Sync with the city. A platform to connect with local events and activities.",
-    status: "Under Construction 🔥",
+    status: "Built 🔥",
     tech: ["React", "Standard CSS", "Node.js", "MongoDB", "Express", "Axios", "Nodemailer"],
     badge: "Coming Soon",
     github: "https://github.com/manyaa-fr/Zynk.git",
-    live: null,
+    live: "https://zynk-self.vercel.app/",
   },
   {
     title: "SpookySeekers",
@@ -39,6 +39,12 @@ const cardVariant = {
 };
 
 const Projects = () => {
+  const handleCardClick = (project) => {
+    if (project.live) {
+      window.open(project.live, '_blank', 'noopener,noreferrer');
+    }
+  };
+
   return (
     <section
       id="projects"
@@ -59,11 +65,27 @@ const Projects = () => {
               whileInView="visible"
               viewport={{ once: true }}
               custom={i}
-              className="bg-[#f8f5f0] rounded-lg shadow-md hover:shadow-lg border border-[#bd8c7d]/30 p-6 text-left transition-all"
+              onClick={() => handleCardClick(project)}
+              className={`bg-[#f8f5f0] rounded-lg shadow-md hover:shadow-lg border border-[#bd8c7d]/30 p-6 text-left transition-all ${
+                project.live 
+                  ? 'cursor-pointer hover:scale-105 hover:border-[#bd8c7d]/50 active:scale-95' 
+                  : 'cursor-default'
+              }`}
+              style={{ 
+                cursor: project.live ? 'pointer' : 'default',
+                userSelect: 'none'
+              }}
             >
-              <h3 className="text-2xl font-semibold mb-3 text-[#bd8c7d]">
-                {project.title}
-              </h3>
+              <div className="flex items-center justify-between mb-3">
+                <h3 className="text-2xl font-semibold text-[#bd8c7d]">
+                  {project.title}
+                </h3>
+                {project.live && (
+                  <span className="text-xs text-[#bd8c7d] opacity-70">
+                    Click to visit →
+                  </span>
+                )}
+              </div>
               <p className="text-[#8e8e90] mb-4">
                 {project.description}
               </p>
